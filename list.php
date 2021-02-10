@@ -10,7 +10,7 @@
     $statement->closeCursor();
 
     if(count($items) === 0) {
-        echo "<p>There are no items on your to do list yet.</p>";
+        echo "<p id='no-items'>There are no items on your to do list yet.</p>";
     } else {
         foreach ($items as $item): ?>
          <div class="full-width-item-div">

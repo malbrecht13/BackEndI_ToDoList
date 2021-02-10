@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
         </section>
         <section id="additem">
             <h2 class="additem">Add Item</h2>
-            <form action="addItem.php" method="POST">
+            <form action="addItem.php" method="POST" id="add-item-form">
                 <div class="add-item-boxes">
                     <input type="text" placeholder="Title" name="title">
                     <input type="text" placeholder="Description" name="description">

@@ -1,6 +1,6 @@
 <?php
 
-    $dsn = 'mysql:host=localhost;dbname=ToDoList';
+    $dsn = 'mysql:host=localhost;dbname=todolist';
     $username='root';
 
     try {

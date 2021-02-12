@@ -5,7 +5,7 @@
     $item_num = filter_input(INPUT_POST, 'itemnum', FILTER_VALIDATE_INT);
 
     if($item_num) {
-        $query = 'DELETE FROM ToDoItems
+        $query = 'DELETE FROM todoitems
                   WHERE ItemNum = :item_num';
         $statement = $db->prepare($query);
         $statement->bindValue(':item_num', $item_num);

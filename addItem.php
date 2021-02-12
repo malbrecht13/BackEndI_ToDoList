@@ -6,7 +6,7 @@
 
     //they don't need a description to add an item; it is optional
     if($title) {
-        $query = 'INSERT INTO ToDoItems (Title, Description)
+        $query = 'INSERT INTO todoitems (Title, Description)
                   VALUES (:title, :description)';
         $statement = $db->prepare($query);
         $statement->bindValue(':title', $title);
